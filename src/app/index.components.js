@@ -1,0 +1,21 @@
+export default angular.module('index.components', [
+  require('./components/header/header.module').name,
+  require('./components/footer/footer.module').name,
+  require('./components/book-now/book-now.module').name,
+  require('./components/contact-us/contact-us.module').name,
+  require('./components/gallery/gallery.module').name,
+  require('./components/commercial/commercial.module').name,
+  require('./components/featured-in/featured-in.module').name,
+  require('./components/testimonials/testimonials.module').name,
+  require('./components/steps/steps.module').name,
+  require('./components/about-intro/about-intro.module').name,
+  require('./components/moving/moving.module').name,
+  require('./components/residential-details/residential-details.module').name,
+  require('./components/our-offer/our-offer.module').name,
+  require('./components/commercial-details/commercial-details.module').name,
+  require('./components/powerwash/powerwash.module').name,
+  require('./components/instagram-feed/instagram-feed.module').name,
+  require('./components/interior-steps/interior-steps.module').name,
+  require('./components/exterior-steps/exterior-steps.module').name,
+  // Add new components above
+]);

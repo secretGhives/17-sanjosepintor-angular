@@ -1,0 +1,28 @@
+<div class="side-left" 
+	layout="column"
+	layout-align-gt-xs="center center"
+	flex-gt-xs="50">
+	<ul class="cities" layout="row" layout-align="space-around center">
+		<li><img src="/assets/images/nyc-icon.svg"><span>San Jose</span></li>
+		<li><img src="/assets/images/your-city-icon.svg"><span>{{"component.about_intro.your_city" | translate}}</span></li>
+		<li><img src="/assets/images/chi-icon.svg"><span>Heredia</span></li>
+	</ul>
+
+	<h1 layout-align-gt-xs="end end">{{"component.about_intro.why" | translate}} {{company}}?</h1>
+</div>
+
+<div class="side-right" flex-gt-xs="50">
+	<p>{{"component.about_intro.p_1" | translate}}</p>
+
+	<p>{{"component.about_intro.p_2" | translate}}</p>
+
+	<div class="meta-info" hide-gt-xs>
+		<ul>
+			<li><img src="/assets/images/star-outline.svg" class="svg">{{"page.home.hero.bonded" | translate}}</li>
+			<li><img src="/assets/images/check.svg" class="svg">{{"page.home.hero.trained" | translate}}</li>
+			<li><img src="/assets/images/leaf.svg" class="svg">{{"page.home.hero.eco" | translate}}</li>
+		</ul>
+	</div>
+
+	<md-button ui-sref="residential-painting" class="md-raised input-submit md-primary">{{"component.about_intro.button" | translate}}</md-button>
+</div>

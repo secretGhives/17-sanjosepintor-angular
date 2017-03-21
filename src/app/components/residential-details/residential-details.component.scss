@@ -1,0 +1,67 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// MOVING REQUESTS
+#section--residential-details {
+	background: $navy_hue;
+	color: $silver;
+
+	.content-wrap { 
+		margin: 3em 0; 
+
+		@media screen and (min-width: 640px) {
+			margin: 3em 3em; 
+		}
+	}
+	.left-side, .right-side { margin: 0 2em; }
+
+	.left-side {
+		
+		h1 { color: $silver; margin-bottom: 0;}
+
+		p {
+			color: $silver;
+			margin-top: 0; margin-bottom: 60px;
+			padding-top: 40px; padding-bottom: 60px;
+			border-top: 0 solid $silver;
+			border-bottom: 2px solid $silver;
+		}
+	}
+
+	.right-side {
+
+		.add-item {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin: 0 1em 2em 0;
+
+			img.svg { 
+				margin-right: 0.45em;
+				height: 45px;
+			}
+		}
+		.meta {
+			.add-on {
+				display: block;
+				font-size: 13px;
+				color: #fff;
+				margin-bottom: 0;
+			}
+			.price {
+				display: block;
+				color: $pink_500;
+				font-family: Merriweather,serif;
+				font-style: italic;
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

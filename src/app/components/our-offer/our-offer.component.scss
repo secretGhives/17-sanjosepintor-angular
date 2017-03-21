@@ -1,0 +1,48 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// OUR OFFER
+#section--our-offer {
+	background: $navy_hue;
+	color: $silver;
+
+	.content-wrap { margin: 3em 2em; }
+	h1 { 
+		color: $silver;
+		margin-bottom: 1.42em;
+	}
+
+	.offer-list {
+		margin-bottom: 2em;
+		ul {}
+		ul li {
+			font-family: BrownStd,Helvetica,sans-serif;
+			font-weight: 400;
+			width: 222px;
+			margin-bottom: 15px;
+			position: relative;
+			padding-left: 25px;
+
+			&:before {
+				content: '';
+				height: 15px;
+				margin-top: 3px;
+				width: 15px;
+				left: 0;
+				position: absolute;
+				background-image: url(../../../assets/images/checkmark-green.svg);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 100%;
+				display: inline-block
+			}
+
+		}
+	}
+}
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

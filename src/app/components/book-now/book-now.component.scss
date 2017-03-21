@@ -1,0 +1,22 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// BOTTOM BOOKING
+#section--booking {
+	background-color: $blue_500;
+	padding: 3em 0;
+	user-select: none;
+
+	.cta-icon { 
+		margin: 2em 0;
+		text-align: center; 
+	}
+
+	h1 { 
+		color: $silver;
+		text-align: center;
+		margin: 0 0 2em;
+		cursor: default;
+	}
+
+	.input-submit { color: $silver; }
+}

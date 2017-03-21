@@ -1,0 +1,55 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// STEPS
+#section--exterior-steps {
+  padding-bottom: 3em;
+
+  background-image: url(../../../assets/images/line.svg);
+  @media screen and (max-width: 639px) { background-image: none; }
+
+  background-repeat: no-repeat;
+  background-position: 50% 33%;
+  background-size: contain;
+
+  .head-text {
+  	margin: 0 1em 1em 1em;
+		@media screen and (max-width: 1099px) and (min-width: 940px) { margin: 0 3em 2em 3em; }
+		@media screen and (max-width: 939px) and (min-width: 640px) { margin: 0 2em 2em 2em; }
+  }
+
+  h3 { 
+    //text-align: center;
+    margin: 2em 0;
+  }
+
+  .steps { 
+  	margin: 0 1em; 
+  }
+  .step {
+    // display: flex;
+    // flex-direction: row;
+    align-items: flex-start;
+    margin-right: 1em;
+    min-width: 20%;
+
+    &:last-child { margin-right: 0; }
+
+    img.svg {
+      max-width: 50px;
+      margin: 1.2em 0.9em;
+    }
+
+    .text {
+      h4 { margin-bottom: 5px; }
+      p { margin: 0; }
+    }
+  }
+}
+
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

@@ -1,0 +1,255 @@
+<article id="booking">
+	<section id="section--booking-hero" 
+		style="background-image:url(/assets/images/booking_blur.jpg);">
+
+		<div class="content-wrapper hero"
+			layout="column"
+			layout-align-xs="center center"
+			layout-align-sm="center start"
+			layout-align-md="center start">
+
+			<header id="top" class="header" layout="row"></header>
+
+			<div class="text" ng-hide="message">
+				<h1>{{"page.booking.hero.title" | translate}}</h1>
+				<p>{{"page.booking.hero.p_1" | translate}}</p>
+				<p>{{"page.booking.hero.p_2" | translate}} {{booking.phone}}, {{booking.email}}</p>
+			</div>
+
+			<!-- Success message -->
+			<div class="text success-message" ng-show="message">
+				<img src="/assets/images/goal.svg" class="svg" /> 
+				<h1>{{"page.booking.hero.success.title" | translate}}</h1>
+				<p>{{"page.booking.hero.success.p" | translate}} {{booking.phone}}, {{booking.email}}</p>
+			</div>
+		</div>
+	</section>
+
+	<form id="quoteForm" class="content-wrapper" name="quoteForm" method="post" ng-hide="message">
+
+		<!-- QUESTION What would you like painted? -->
+		<fieldset>
+			<legend>{{"page.booking.form.what.title" | translate}}</legend>
+
+			<md-input-container layout-xs="column">
+				<md-checkbox flex-gt-xs="50"
+					analytics-on
+					analytics-event="{{item}}"
+					analytics-category="What would you like painted?"
+					ng-repeat="item in booking.surfaces"
+					ng-checked="booking.exists(item, booking.forma.surface_to_paint.selected)"
+					ng-click="booking.toggle(item, booking.forma.surface_to_paint.selected)">
+					{{ item | translate }}
+				</md-checkbox>
+			</md-input-container>
+
+			<!-- custom surfaces -->
+			<div layout="column" class="margin-top" ng-show="booking.exists('other', booking.forma.surface_to_paint.selected)" ng-cloak>
+				<md-input-container class="md-block" flex>
+					<label>{{"page.booking.form.common.tell_more" | translate}}</label>
+					<textarea name="otherSurface" ng-model="booking.forma.surface_to_paint.other" md-maxlength="693" md-select-on-focus></textarea>
+				</md-input-container>
+			</div>
+		</fieldset>
+
+		<!-- QUESTION Where would you like painting? -->
+		<fieldset>
+			<legend>{{"page.booking.form.where.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group name="locationType"
+					analytics-on
+					analytics-event="{{booking.forma.location_type.selected}}"
+					analytics-category="Where would you like painting?"
+					ng-model="booking.forma.location_type.selected">
+					<md-radio-button value="Home"> {{"page.booking.form.where.point_1" | translate}} </md-radio-button>
+					<md-radio-button value="Office / commercial"> {{"page.booking.form.where.point_2" | translate}} </md-radio-button>
+					<md-radio-button value="Rental unit(s)"> {{"page.booking.form.where.point_3" | translate}} </md-radio-button>
+					<md-radio-button value="other"> {{"page.booking.form.where.point_4" | translate}} </md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+
+			<!-- custom when_needed -->
+			<div layout="column" class="margin-top" ng-show="booking.forma.location_type.selected == 'other'" ng-cloak>
+				<md-input-container class="md-block" flex>
+					<label>{{"page.booking.form.common.tell_more" | translate}}</label>
+					<textarea name="otherLocation" ng-model="booking.forma.location_type.other" md-maxlength="693" md-select-on-focus></textarea>
+				</md-input-container>
+			</div>
+		</fieldset>
+
+		<!-- QUESTION How much painting is involved? -->
+		<fieldset>
+			<legend>{{"page.booking.form.how_much.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group name="projectSize"
+					analytics-on
+					analytics-event="{{booking.forma.size_of_project}}"
+					analytics-category="How much painting is involved?"
+					ng-model="booking.forma.size_of_project">
+					<md-radio-button value="A single room or project"> {{"page.booking.form.how_much.point_1" | translate}} </md-radio-button>
+					<md-radio-button value="Multiple rooms or projects"> {{"page.booking.form.how_much.point_2" | translate}} </md-radio-button>
+					<md-radio-button value="I'm not sure"> {{"page.booking.form.how_much.point_3" | translate}} </md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+		</fieldset>
+
+		<!-- QUESTION What is the approximate square footage of the area(s) to be painted? -->
+		<fieldset>
+			<legend>{{"page.booking.form.how_big.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group name="approximateArea"
+					analytics-on
+					analytics-event="{{booking.forma.approximate_area}}"
+					analytics-category="What is the approximate square footage of the area(s) to be painted?"
+					ng-model="booking.forma.approximate_area">
+					<md-radio-button value="Less than 500 sq ft"> {{"page.booking.form.how_big.point_1" | translate}} </md-radio-button>
+					<md-radio-button value="500 - 1,000 sq ft"> {{"page.booking.form.how_big.point_2" | translate}} </md-radio-button>
+					<md-radio-button value="1,000 - 1,500 sq ft"> {{"page.booking.form.how_big.point_3" | translate}} </md-radio-button>
+					<md-radio-button value="1,500 - 2,000 sq ft"> {{"page.booking.form.how_big.point_4" | translate}} </md-radio-button>
+					<md-radio-button value="2,000 - 2,500 sq ft"> {{"page.booking.form.how_big.point_5" | translate}} </md-radio-button>
+					<md-radio-button value="2,500 - 3,000 sq ft"> {{"page.booking.form.how_big.point_6" | translate}} </md-radio-button>
+					<md-radio-button value="More than 3,000 sq ft"> {{"page.booking.form.how_big.point_7" | translate}} </md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+		</fieldset>
+
+		<!-- QUESTION When do you need painting? -->
+		<fieldset>
+			<legend>{{"page.booking.form.when.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group name="timeFrame"
+					analytics-on
+					analytics-event="{{booking.forma.job_timeframe.selected}}"
+					analytics-category="When do you need painting?"
+					ng-model="booking.forma.job_timeframe.selected">
+					<!-- <md-radio-button ng-repeat="item in booking.availability" value="{{item.name}}"> {{item.name}} </md-radio-button> -->
+					<md-radio-button value="I'm flexible">{{"page.booking.form.when.point_1" | translate}}</md-radio-button>
+					<md-radio-button value="In the next few days">{{"page.booking.form.when.point_2" | translate}}</md-radio-button>
+					<md-radio-button value="As soon as possible">{{"page.booking.form.when.point_3" | translate}}</md-radio-button>
+					<md-radio-button value="On one particular date">{{"page.booking.form.when.point_4" | translate}}</md-radio-button>
+					<md-radio-button value="Other">{{"page.booking.form.when.point_5" | translate}}</md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+
+			<div layout="column" class="margin-top">
+				<md-input-container ng-show="booking.forma.job_timeframe.selected == 'On one particular date'" ng-cloak>
+					<label>{{"page.booking.form.when.day" | translate}}</label>
+					<md-datepicker ng-model="booking.forma.job_timeframe.date"></md-datepicker>
+				</md-input-container>
+
+				<!-- custom when_needed -->
+				<md-input-container ng-show="booking.forma.job_timeframe.selected == 'Other'" ng-cloak>
+					<label>{{"page.booking.form.common.tell_more" | translate}}</label>
+					<textarea name="otherTime" ng-model="booking.forma.job_timeframe.other" md-maxlength="693" md-select-on-focus></textarea>
+				</md-input-container>
+			</div>
+		</fieldset>
+
+		<!-- QUESTION Anything else the painter should know? -->
+		<fieldset>
+			<legend>{{"page.booking.form.anything_else.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group ng-model="booking.forma.additional_info"
+					analytics-on
+					analytics-event="{{booking.forma.additional_info}}"
+					analytics-category="Anything else the painter should know?">
+					<md-radio-button value="no"> {{"page.booking.form.anything_else.point_1" | translate}} </md-radio-button>
+					<md-radio-button value="yes"> {{"page.booking.form.anything_else.point_2" | translate}} </md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+
+			<!-- custom additional_info -->
+			<div layout="column" class="margin-top" ng-show="booking.forma.additional_info == 'yes'" ng-cloak>
+				<md-input-container class="md-block">
+					<label>{{"page.booking.form.common.tell_more" | translate}}</label>
+					<textarea name="additionalInfo" ng-model="booking.forma.additional_details" md-maxlength="693" md-select-on-focus></textarea>
+				</md-input-container>
+			</div>
+		</fieldset>
+
+		<!-- QUESTION Please confirm where you need the painter. -->
+		<fieldset>
+			<legend>{{"page.booking.form.map.title" | translate}}<br><small>{{"page.booking.form.map.small" | translate}}</small></legend>
+
+			<div layout="column">
+				<ng-map center="9.9332605, -84.106093" zoom="13" analytics-on>
+						<marker position="9.9332605, -84.106093"
+							on-dragend="booking.showMarkerLatlng()"
+							animation="DROP" draggable="true"></marker>
+				</ng-map>
+				<small>{{booking.position}}</small>
+			</div>
+		</fieldset>
+
+		<!-- QUESTION How would you like to receive quote? -->
+		<fieldset>
+			<legend>{{"page.booking.form.how_contact.title" | translate}}</legend>
+
+			<md-input-container>
+				<md-radio-group name="contactBy"
+					analytics-on
+					analytics-event="{{booking.forma.contact_by.selected}}"
+					analytics-category="How would you like to receive quote?"
+					ng-model="booking.forma.contact_by.selected">
+					<md-radio-button value="email" checked> {{"page.booking.form.how_contact.point_1" | translate}} </md-radio-button>
+					<md-radio-button value="both"> {{"page.booking.form.how_contact.point_2" | translate}} </md-radio-button>
+				</md-radio-group>
+			</md-input-container>
+
+			<div class="margin-top" layout="column">
+				<!-- Full name -->
+				<md-input-container>
+					<label>{{"page.booking.form.how_contact.name" | translate}}</label>
+					<input name="fullName"
+						analytics-on
+						analytics-category="Please enter your full name."
+						ng-model="booking.forma.full_name">
+				</md-input-container>
+
+				 <!-- Email -->
+				<md-input-container>
+					<label>{{"page.booking.form.how_contact.email" | translate}}</label>
+					<input name="email"
+						analytics-on
+						analytics-category="What's your email address?"
+						ng-model="booking.forma.contact_by.email">
+				</md-input-container>
+
+				<!-- custom phone -->
+				<md-input-container ng-show="booking.forma.contact_by.selected == 'both'" ng-cloak>
+					<label>{{"page.booking.form.how_contact.phone" | translate}}</label>
+					<input name="phoneNumber" ng-model="booking.forma.contact_by.phone">
+				</md-input-container>
+			</div>
+		</fieldset>
+
+		<!-- BUTTONS -->
+		<fieldset>
+			<md-button type="reset"
+				analytics-on="click"
+				analytics-event="Form reset"
+				ng-click="booking.cancelForm()">{{"page.booking.form.button.reset" | translate}}</md-button>
+			<md-button class="md-raised md-primary"
+				ng-disabled="quoteForm.$pristine"
+				analytics-on="click"
+				analytics-event="Form submitted"
+				ng-click="booking.submitForm(booking.forma)">{{"page.booking.form.button.submit" | translate}}</md-button>
+		</fieldset>
+
+
+		<!-- <pre><h1>booking.forma</h1>
+		{{booking.forma | json}}</pre> -->
+
+		<!-- <pre><h1>quoteForm</h1>
+		{{ quoteForm | json }}</pre> -->
+
+		<!-- <h1>form status</h1>
+		quoteForm.$pristine = {{quoteForm.$pristine}}<br />
+		quoteForm.$valid = {{quoteForm.$valid}} -->
+	</form>
+</article>

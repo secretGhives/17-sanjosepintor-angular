@@ -1,0 +1,36 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// MOVING REQUESTS
+#section--powerwash {
+
+  .left-side {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .right-side {
+    background-color: $silver;
+    padding: 1em 0;
+    color: $navy_hue;
+
+    .text {
+      padding: 0 2em;
+    }
+
+    h1 {}
+
+    p { }
+
+  }
+
+}
+
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

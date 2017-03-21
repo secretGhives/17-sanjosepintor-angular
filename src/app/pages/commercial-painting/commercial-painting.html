@@ -1,0 +1,39 @@
+<article id="commercial-painting">
+	<section id="section--commercial-painting-hero" 
+		style="background-image:url(/assets/images/commercial_blur.jpg);">
+
+		<div class="content-wrapper hero"
+			layout="column" 
+			layout-align-xs="center center"
+			layout-align-sm="center start"
+			layout-align-md="center end">
+
+			<header id="top" class="header" layout="row"></header>
+
+			<div class="text">
+				<h1>{{"page.commercial.hero.title" | translate}}</h1>
+				<p>{{"page.commercial.hero.p" | translate}}</p>
+
+				<!-- <p>Let us help you revitalize your office or business location and get rid of those scuffed, damaged or dirty walls. We offer After Hours scheduling for your convenience and with quick dry paint, you won’t even know we were there.</p> -->
+
+				<md-button ui-sref="booking" class="md-raised input-submit md-primary" flex-xs="grow">{{"page.commercial.hero.button" | translate}}</md-button>
+			</div>
+		</div>
+	</section>
+
+	<our-offer id="section--our-offer" class="content-wrapper"
+		layout="column"></our-offer>
+	
+	<before-after style="display: block;" class="content-wrapper"
+		before-image-url="'/assets/images/before-after/commercial_before_0.jpg'" 
+		after-image-url="'/assets/images/before-after/commercial_after_0.jpg'"></before-after>
+
+	<commercial-details id="section--commercial-details" class="content-wrapper"
+		layout="column"></commercial-details>
+
+	<powerwash id="section--powerwash" class="content-wrapper"
+		layout="row" layout-xs="column"></powerwash>
+
+	<book-now id="section--booking" class="content-wrapper"
+		layout="column"></book-now>
+</article>

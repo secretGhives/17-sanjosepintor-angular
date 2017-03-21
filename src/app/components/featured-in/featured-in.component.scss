@@ -1,0 +1,21 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// FEATURED IN
+#section--featured {
+  padding: 3em 0;
+  user-select: none;
+
+  h3 { text-align: center; cursor: default;}
+
+  .logo-wrapper {
+    padding: 0 1em;
+    img { padding: 0.42em; max-width: 160px; }
+  }
+}
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

@@ -1,0 +1,66 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// COMMERCIAL REQUESTS
+#section--commercial {
+  user-select: none;
+
+  .left-side {
+    background-color: #14374c;
+    padding: 1em 0;
+
+    .text {
+      padding: 0 1em;
+      color: #fff;
+      margin: 1em;
+    }
+
+    h1 { 
+      color: $silver; 
+      margin-bottom: 0.45em;
+      cursor: default;
+    }
+
+    a {
+      font-family: Merriweather,serif;
+      font-weight: 400;
+      font-style: italic;
+      color: #efefef;
+      text-decoration: none;
+      margin-bottom: 1em;
+      display: block;
+
+      &:hover { color: #fff; }
+      &:after {
+        content: '';
+        height: 10px;
+        width: 18px;
+        background-image: url(../../../assets/images/cta-arrow-white.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        display: inline-block;
+        margin-left: 15px;
+        transition: transform 250ms 0s ease;
+      }
+    }
+  }
+
+  .right-side {
+    order: -1;
+    min-height: 300px;
+    @media screen and (min-width: 640px) {
+      min-height: 500px;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

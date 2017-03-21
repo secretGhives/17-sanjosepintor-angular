@@ -1,0 +1,42 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// CONTACT DETAILS
+#section--contact-us {
+  background: $blue_hue;
+  color: $silver;
+  display: flex;
+
+  .contact-info {
+    margin: 3em 1em;
+    @media screen and (min-width: 640px) { margin: 6em; }
+  }
+  
+
+  .contact-option {
+    margin-bottom: 1em;
+    img { 
+      vertical-align: middle;
+      margin-right: 0.45em;
+      width: 40px;
+    }
+  }
+  a {
+    font-size: 15px;
+    color: $silver;
+    text-decoration: none;
+    &:hover { color: $blue_500; }
+  }
+  h1 { color: $silver;  margin-bottom: 2em;}
+  .grouped { 
+    margin-top: 1em; 
+    h4 { margin-bottom: 0.45em; }
+    p { margin-top: 0; color: $silver; }
+  }
+}
+
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

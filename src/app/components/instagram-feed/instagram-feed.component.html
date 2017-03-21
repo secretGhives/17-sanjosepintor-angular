@@ -1,0 +1,12 @@
+<div class="text">
+	<h1>{{"component.instagram_feed.title" | translate}}</h1>
+	<p>{{"component.instagram_feed.p" | translate}} <a href="{{instagurl}}" target="_blank">feed</a>.</p>
+</div>
+
+<div layout="row" layout-xs="column" layout-align="space-around center" layout-wrap>
+	<!-- <a ng-repeat="p in dump" href="{{p.link}}" target="_blank" class="image" style="background-image: url('{{p.images.low_resolution.url}}');">
+		<span class="caption">{{p.caption.text}}</span>
+	</a> -->
+
+	<img ng-repeat="p in dump" ng-src="{{p.images.low_resolution.url}}" data-large="{{p.images.standard_resolution.url}}" class="zoom animate" />
+</div>

@@ -1,0 +1,44 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// GALLERY
+#section--gallery {
+  user-select: none;
+
+  .left-side {
+    padding: 1.6em;
+    border-bottom: 1px solid #dce1e5;
+
+    .google-logo {
+      margin-bottom: 1.5em;
+      display: block;
+      max-width: 69px;
+    }
+
+    .stars {
+      margin-bottom: 1em;
+    }
+
+    .extra {
+      margin-bottom: 2em;
+      cursor: default;
+    }
+
+  }
+
+  .right-side {
+    padding: 1.6em;
+
+    h1 { text-align: center; cursor: default;}
+    p { 
+      margin: 0 0 2em; 
+      text-align: center;
+      cursor: default;
+    }
+  }
+}
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
+// @media screen and (min-width: 640px) {}

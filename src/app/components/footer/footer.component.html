@@ -1,0 +1,54 @@
+<div class="top-bar" layout="row" layout-align="space-between center">
+	<img class="svg logo" src="/assets/images/footer-logo.svg" ui-sref="home" alt="{{company}}">
+	<ul layout="row" layout-align="flex-end center">
+		<li><img class="svg" src="/assets/images/bucket_3.svg"></li>
+		<li><img class="svg" src="/assets/images/pantone.svg"></li>
+		<li><img class="svg" src="/assets/images/paint-roller_1.svg"></li>
+		<li><img class="svg" src="/assets/images/scraper.svg"></li>
+		<li><img class="svg" src="/assets/images/bucket_2.svg"></li>
+	</ul>
+</div><!-- End of Top Bar -->
+
+<div class="bottom clear" layout-wrap
+	layout="row" layout-xs="column" 
+	layout-align="space-around start">
+	<div class="column large" flex-xs="grow">
+		<h5>{{"component.footer.moto" | translate}}</h5>
+		<div class="extra-meta">
+			<span class="pink">{{phone}}</span>
+			<span class="towns">{{cities}}</span>
+		</div>
+	</div> <!-- END OF COL -->
+
+	<div class="column">
+		<span class="footer-col-title">{{"component.footer.company" | translate}}</span>
+		<ul>
+			<li><a ui-sref="about-us">{{"component.footer.company.about" | translate}}</a></li>
+			<li><a ui-sref="about-us({ '#': 'section--contact-us' })">{{"component.footer.company.contact" | translate}}</a></li>
+			<li><a ui-sref="faq">{{"component.footer.company.faq" | translate}}</a></li>
+		</ul>
+	</div> <!-- END OF COL -->
+
+	<div class="column">
+		<span class="footer-col-title">{{"component.footer.services" | translate}}</span>
+		<ul>
+			<li><a ui-sref="residential-painting">{{"component.footer.services.residential" | translate}}</a></li>
+			<li><a ui-sref="commercial-painting">{{"component.footer.services.commercial" | translate}}</a></li>
+			<li><a ui-sref="commercial-painting({ '#': 'section--powerwash' })">{{"component.footer.services.powerwash" | translate}}</a></li>
+		</ul>
+	</div> <!-- END OF COL -->
+
+	<div class="column">
+		<span class="footer-col-title">{{"component.footer.connect" | translate}}</span>
+		<ul>
+			<!-- <li><a href="https://twitter.com/sanjosepintor">Twitter</a></li> -->
+			<li><a href="http://plus.google.com/b/102177862976869428557/102177862976869428557/about?hl=en">{{"component.footer.connect.google" | translate}}</a></li>
+			<li><a href="http://instagram.com/sanjosepintor">{{"component.footer.connect.instagram" | translate}}</a></li>
+		</ul>
+	</div> <!-- END OF COL -->
+</div> <!-- END OF BOTTOM -->
+<div class="bottom-bar" layout-xs="column" layout="row" layout-align="space-between center">
+	<p>{{"component.footer.copyleft" | translate}} {{company}}. {{"component.footer.copyleft.rights" | translate}}   |   <a ui-sref="terms({ '#': 'top' })">Terms of Service</a>   |   <a ui-sref="privacy({ '#': 'top' })">Privacy Policy</a></p>
+
+	<div translate-language-select></div>
+</div>

@@ -1,0 +1,20 @@
+<div class="logo-wrapper" layout="row" layout-align="start center">
+	<a href="/" title="{{company}}">
+		<img src="/assets/images/logo_brush_small.png" alt="{{company}}"/>
+	</a>
+	<div class="extra-meta" hide-xs layout="row">
+		<span class="pink">{{phone}}</span>
+		<span>{{cities}}</span>
+	</div>
+</div>  <!-- /logo-wrapper -->
+
+<nav class="main-nav" role="navigation"
+	layout="row"
+	layout-align="end center"
+	hide-xs>
+	<ul>
+		<li class="nav-item"><a ui-sref="residential-painting">{{"component.header.link.residential" | translate}}</a></li>
+		<li class="nav-item"><a ui-sref="commercial-painting">{{"component.header.link.commercial" | translate}}</a></li>
+		<li class="nav-item"><a ui-sref="faq">{{"component.header.link.faq" | translate}}</a></li>
+	</ul>
+</nav> <!-- /main-nav -->

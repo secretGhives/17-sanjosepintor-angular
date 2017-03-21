@@ -1,0 +1,28 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+// GENERAL ABOUT US TEXT
+#section--about-us {
+  .main-content { 
+    margin: 9em 1em 3em 1em;
+    @media screen and (max-width: 939px) and (min-width: 640px) {
+      margin: 9em 3em 3em 3em;
+    }
+    @media screen and (max-width: 1099px) and (min-width: 940px) {
+      margin: 9em 6em 6em 6em;
+    }
+  }
+  h1 {margin-bottom: 2em; }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: $navy_hue;
+  }
+  p { }
+  .grouped { margin-bottom: 3em; }
+  img.company-van { max-width: 100%; }
+}
+
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 1099px) and (min-width: 940px) {}
+// @media screen and (max-width: 939px) and (min-width: 640px) {}
+// @media screen and (max-width: 639px) {}
