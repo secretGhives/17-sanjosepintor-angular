@@ -1,0 +1,264 @@
+{
+  "component.header.link.residential": "Pintura Residencial",
+  "component.header.link.commercial": "Pintura Comercial",
+  "component.header.link.faq": "FAQ",
+
+
+  "page.home.hero.title_1": "Pintamos.",
+  "page.home.hero.title_2": "Relájate.",
+  "page.home.hero.button": "Empezando desde",
+  "page.home.hero.bonded": "Todos los pintores son Bonded & Asegurado",
+  "page.home.hero.trained": "Entrenado con los más altos estándares",
+  "page.home.hero.eco": "Utilice Safe & Productos sin COV",
+
+  "component.about_intro.your_city": "¿Tu ciudad?",
+  "component.about_intro.why": "Por qué elegir",
+  "component.about_intro.p_1": "La pintura no es divertido, al menos para la mayoría. De hecho, es mucho tiempo, desordenado, y puede implicar una rodilla contusionada o dos. En nuestro caso nos encanta pintar. Es prácticamente todo lo que hacemos. Consiga su tiempo detrás - reserva en línea o llámenos para hacer su inversión como nuevo otra vez.",
+  "component.about_intro.p_2": "En el raro caso, no está satisfecho con la calidad del servicio, lo haremos bien con nuestra Calidad de Garantía Estándar.",
+  "component.about_intro.button": "Aprende más",
+
+  "component.steps.title": "Nuestro sencillo proceso garantiza calidad cada vez",
+  "component.steps.estimate.title": "Estimación gratuíta",
+  "component.steps.estimate.p": "Llegamos a su ubicación para proporcionar estimaciones en el sitio para el trabajo.",
+  "component.steps.preparation.title": "Preparación",
+  "component.steps.preparation.p": "Preparamos y enmascaramos todas las áreas para eliminar el daño a la propiedad usando técnicas de la industria.",
+  "component.steps.job.title": "Hacer el trabajo",
+  "component.steps.job.p": "Después de que todo esté preparado cubrimos superficies con productos líderes de la industria para ahorrar tiempo y ofrecer consistencia de alta calidad.",
+  "component.steps.cleanup.title": "Limpieza y cierre",
+  "component.steps.cleanup.p": "El trabajo está hecho, limpiar todas las cosas del paso uno y presentar los resultados completados al cliente para su aprobación y un sign-off.",
+
+
+  "The best company ever, super fast, super cheap and super reliable!!!": "¡La mejor compañía nunca, súper rápido, súper barato y súper confiable !!!",
+  "This company has prepared the unit to rent in less time than indicated. Will be used again.": "Esta empresa ha preparado la unidad para alquilar en menos tiempo de lo indicado. Se utilizará de nuevo.",
+
+  "component.featured_in.title": "Presentado en",
+
+  "component.commercial.title": "¿Es usted un espacio comercial?",
+  "component.commercial.link": "Más información sobre nuestras ofertas",
+
+  "component.gallery.rating.value": "4.5 estrellas en Google!",
+  "component.gallery.rating.button": "Escribe una reseña",
+  "component.gallery.hiring.title": "¡Estamos contratando!",
+  "component.gallery.hiring.p": "Interesado en trabajar con nosotros? Más información sobre nuestro proceso, beneficios y programación flexible",
+  "component.gallery.hiring.button": "Aplica ya",
+
+  "component.book_now.title": "¿Listo para más tiempo?",
+  "component.book_now.button": "Reserva hoy.",
+
+
+  "page.residential.hero.title": "Deje que su hogar brille.",
+  "page.residential.hero.p": "Entendemos que su hogar es importante para usted. Es por eso que nos centramos en la calidad del trabajo. Nuestro pintor no son trabajadores por contrato, sino empleados a tiempo completo. Cuidan tanto como nosotros.",
+  "page.residential.hero.button": "Reservar ahora",
+
+  "component.interior_steps.title": "Acabado interior",
+  "component.interior_steps.p_1": "Se especializa en una amplia gama de servicios de pintura interior para trabajos grandes y pequeños, comerciales y residenciales. Somos capaces de proporcionar satisfacción y deleite a todos nuestros clientes con mano de obra de calidad, productos superiores y servicio de la más alta calidad.",
+  "component.interior_steps.p_2": "Nos enorgullecemos de nuestra profesionalidad de alto nivel, con atención a los detalles y áreas de trabajo limpias. Nuestros pintores son experimentados y amistosos. Trabajamos duro para darle no sólo los mejores resultados, sino también la mejor experiencia personal. Garantizamos su máxima satisfacción con nuestra pintura interior.",
+  "component.interior_steps.p_3": "La pintura interior es mucho más que cepillarse el color. Proporcionamos una configuración completa, preparación, aplicación y servicio de limpieza.",
+  "component.interior_steps.setup.title": "Instaurar",
+  "component.interior_steps.setup.p": "Mueva los muebles y cubra con láminas de plástico. Proteja todo el piso con paños de limpieza. Proteja las encimeras, gabinetes, barandillas, etc. con paño de caída y láminas de plástico.",
+  "component.interior_steps.preparation.title": "Preparación",
+  "component.interior_steps.preparation.p": "Vacíos, agujeros, grietas e imperfecciones llenadas y reparadas. Otro trabajo de preparación específico para el alcance de proyecto del cliente.",
+  "component.interior_steps.paint.title": "Aplicación de pintura",
+  "component.interior_steps.paint.p": "Primero cualquier imperfección y nuevas superficies de construcción para la mejor adherencia de la pintura. Aplicar productos de calidad para un acabado profesional consistente.",
+  "component.interior_steps.cleanup.title": "Limpiar",
+  "component.interior_steps.cleanup.p": "Muebles y accesorios se colocan en posiciones originales. Se limpian los pisos. Todas las herramientas del proyecto, equipos y basura se eliminan del sitio. Inspección final a pie.",
+  "component.interior_steps.wallpaper.title": "Eliminación e instalaciones de papel pintado",
+  "component.interior_steps.wallpaper.p_1": "Una de las mejores maneras de dar vida a las paredes de su hogar u oficina es cubrirlos con hermosos revestimientos de paredes. Este es el siglo XXI, por lo que sus expectativas sobre 'fondo de pantalla' pueden ser muy diferentes de la gama de productos y aplicaciones disponibles.",
+  "component.interior_steps.wallpaper.p_2": "Hay muchos diversos patrones y colores a elegir de. Se ofrecemos a nuestros clientes un amplio espectro de servicios de revestimiento de paredes que incluyen eliminación de papel tapiz, preparación de paredes, sellado e instalación.",
+
+  "component.moving.title": "¿Emocionante?",
+  "component.moving.p": "Nosotros cubrimos eso, también. Estamos encantados de responder cualquier pregunta que tenga para que sea el movimiento más fácil de su vida.",
+
+  "component.exterior_steps.title": "Acabado exterior",
+  "component.exterior_steps.p_1": "Un exterior bien pintado es el saludo de su familia a la comunidad. Es un reflejo de su estilo y sus intereses. Una casa recién pintada es una cosa hermosa que puede inculcar un sentido de propiedad y orgullo. Pero no es sólo un efecto psicológico, es una capa crucial de protección del medio ambiente para su valiosa inversión en vivienda.",
+  "component.exterior_steps.p_2": "Nosotros ofrece muchos tipos de servicios de pintura exterior. Tenemos en cuenta la longevidad que usted desea, la protección necesaria, y los valores estéticos.",
+  "component.exterior_steps.p_3": "Dado que las paredes exteriores y las superficies están expuestas a los elementos, elegimos una imprimación que sirve como una capa de encuadernación y que se parecen mucho a la pintura de acabado. Las superficies expuestas porosas como el hormigón o la madera están mejor preparadas, permitiendo que la pintura se adhiera más firmemente a ellas.",
+  "component.exterior_steps.p_4": "Para superficies de madera propensas a moho y moho, preparamos a fondo el área y usamos pinturas resistentes al moho para que las paredes permanezcan limpias y protegidas durante muchos años.",
+  "component.exterior_steps.p_5": "Sea cual sea su pintura casera exterior las necesidades pueden ser, estamos listos para ayudarle. Un gran trabajo exterior de la pintura crea una impresión hermosa, duradera de su hogar.",
+  "component.exterior_steps.p_6": "Al igual que nuestra atención al detalle con aplicaciones en interiores, le ofrecemos un servicio completo de configuración, preparación, aplicación y limpieza.",
+  "component.exterior_steps.wash.title": "Lavado superficial",
+  "component.exterior_steps.wash.p": "Según su propuesta, las áreas son agua caliente lavado para eliminar la suciedad, el moho, las algas y la suciedad. Se aplica más presión a las zonas más difíciles de alcanzar.",
+  "component.exterior_steps.preparation.title": "Preparación de la superficie",
+  "component.exterior_steps.preparation.p": "Basado en su propuesta, toda la pintura suelta es raspada y todas las áreas brillantes se rascan lijado. Todos los huecos se calafatean para prevenir intrusiones de agua.",
+  "component.exterior_steps.paint.title": "Aplicación de pintura",
+  "component.exterior_steps.paint.p": "Las áreas reparadas se imprimen y la pintura de la prima calidad se aplica a un final profesional uniforme.",
+  "component.exterior_steps.cleanup.title": "Limpiar",
+  "component.exterior_steps.cleanup.p": "La limpieza completa se realiza, incluyendo la eliminación de basura y el barrido de los chips de pintura.",
+  "component.exterior_steps.inspection.title": "Inspección",
+  "component.exterior_steps.inspection.p": "Después de nuestra propia inspección, usted está invitado a inspeccionar nuestro trabajo, hacer preguntas, y obtener asesoramiento de cuidado.",
+
+  "component.residential_details.title": "Sudamos los detalles",
+  "component.residential_details.p": "En la parte superior de las características estándar, vamos a ir la milla extra para conseguir su lugar buscando fantástico. Simplemente solicite una limpieza profunda, o marque sus necesidades individuales en el proceso de reserva.",
+  "component.residential_details.detail.windows": "Ventanas",
+  "component.residential_details.detail.trims": "Guarniciones",
+  "component.residential_details.detail.doors": "Puertas",
+  "component.residential_details.detail.extra": "Extra",
+
+  "component.instagram_feed.title": "Cartera de Instagram",
+  "component.instagram_feed.p": "Para ver el resto de nuestra cartera, visite nuestro",
+
+
+  "page.commercial.hero.title": "Un negocio apuesto es productivo.",
+  "page.commercial.hero.p": "Nos especializamos en la pintura comercial exterior e interior de edificios y otras estructuras comerciales. Prestamos servicios al sector público y privado, especializado en pintura comercial. Nos enorgullecemos de un servicio excelente y resultados excepcionales.",
+  "page.commercial.hero.button": "Consigue una cotización",
+
+  "component.our_offer.title": "Lo que ofrecemos",
+  "component.our_offer.offer_1": "Asegurado y vinculado",
+  "component.our_offer.offer_2": "Sin contrato anual",
+  "component.our_offer.offer_3": "Precios transparentes",
+  "component.our_offer.offer_4": "Métodos de pago fáciles y convenientes",
+  "component.our_offer.offer_5": "Servicio consistente y de alta calidad (empleados, sin contratistas)",
+  "component.our_offer.offer_6": "Suministros y equipo de pintura siempre",
+  "component.our_offer.offer_7": "Programación flexible (horario comercial o después de horas)",
+  "component.our_offer.offer_8": "Llamada de llaves segura disponible",
+  "component.our_offer.offer_9": "Paseo personalizado",
+  "component.our_offer.offer_10": "Atención especial a las áreas orientadas al cliente (vestíbulo, puertas de cristal, etc.)",
+  "component.our_offer.offer_11": "Servicio de atención al cliente rápido y rápido",
+  "component.our_offer.offer_12": "Resolución oportuna y profesional de la cuestión",
+
+  "component.commercial_details.interior.title": "Para aplicaciones interiores,",
+  "component.commercial_details.interior.point_1": "Proteger todos los muebles / electrodomésticos con cubiertas de plástico transparente y paños de limpieza limpios;",
+  "component.commercial_details.interior.point_2": "Enrolle cualquier alfombra de área;",
+  "component.commercial_details.interior.point_3": "Coloque los muebles en el centro de la zona;",
+  "component.commercial_details.interior.point_4": "Proteja los pisos con papel de construcción y paños de limpieza;",
+  "component.commercial_details.interior.point_5": "Desconecte todos los tomacorrientes, placas de interruptores, ventiladores de techo, termostatos y otros dispositivos de las paredes y el techo (reemplazará cuando la pintura esté completa).",
+  "component.commercial_details.interior.point_6": "Eliminar cualquier huella de papel tapiz, bordes y adhesivos;",
+  "component.commercial_details.interior.point_7": "Prepare las paredes y los techos: rellene los agujeros con masilla, ligeramente arena para suavizar, y lavar para quitar el polvo;",
+  "component.commercial_details.interior.point_8": "Reemplace la roca defectuosa en las paredes o techos;",
+  "component.commercial_details.interior.point_9": "Primero todas las superficies con los materiales apropiados;",
+  "component.commercial_details.interior.point_10": "Pinte con sólo las pinturas de la más alta calidad;",
+  "component.commercial_details.interior.point_11": "Inspeccione y limpie el área de trabajo todos los días con un aspirador AHEPA para una remoción completa del polvo.",
+
+  "component.commercial_details.exterior.title": "Para aplicaciones exteriores,",
+  "component.commercial_details.exterior.point_1": "Raspe y la arena con lijadoras Orbital.",
+  "component.commercial_details.exterior.point_2": "Spackle cualquier pintura floja y chipping.",
+  "component.commercial_details.exterior.point_3": "Lavar con fuerza todas las superficies con lejía para eliminar el moho y la suciedad.",
+  "component.commercial_details.exterior.point_4": "Limpie y raspe las áreas difíciles con pinceles.",
+  "component.commercial_details.exterior.point_5": "Primero todas las superficies con base de aceite o látex primers.",
+  "component.commercial_details.exterior.point_6": "Vuelva a clavar toda la madera suelta, tablillas y tejas.",
+  "component.commercial_details.exterior.point_7": "Reemplace cualquier material podrido o defectuoso tal como revestimiento, tableros de la fascia, etc.",
+  "component.commercial_details.exterior.point_8": "Aplique pintura de acabado o mancha con cepillo; Rodillo o spray puede ser utilizado a petición del cliente.",
+  "component.commercial_details.exterior.point_9": "Utilice sólo las pinturas de mayor calidad, como Benjamin Moore, California o Sherwin Williams.",
+  "component.commercial_details.exterior.point_10": "Retire los accesorios exteriores tales como luces, persianas, toldos, etc. antes de trabajar y reemplácelos cuando la pintura esté completa.",
+  "component.commercial_details.exterior.point_11": "Cubra las superficies exteriores y el follaje cercano con paños para evitar daños.",
+  "component.commercial_details.exterior.point_12": "Almacene con seguridad todos los materiales de pintura, escaleras, trapos y equipo al final de cada día de trabajo.",
+  "component.commercial_details.exterior.point_13": "Inspeccione y limpie el área de trabajo todos los días.",
+
+  "component.powerwash.title": "Limpieza a presión",
+  "component.powerwash.p": "En la parte superior de las características estándar, vamos a ir la milla extra para conseguir su lugar buscando fantástico. Sólo pide una limpieza profunda.",
+
+
+  "page.about_us.title": "Sobre nosotros",
+  "page.about_us.mission.title": "Nuestra misión: Proporcionar un servicio de pintura de alta calidad.",
+  "page.about_us.mission.p_1": "Tomamos la molestia fuera de casa y pintura de oficina en Costa Rica. Hemos hecho que el proceso de obtener su casa pintada mucho menos molesto. Ofrecemos velocidad y calidad, por lo que no tiene que cambiar su vida entera sólo para obtener su casa pintada.",
+  "page.about_us.mission.p_2": "Ni siquiera olerá el humo de la pintura después de que nos hayamos ido - también usamos cero pintura VOC, que es mejor para usted y el medio ambiente.",
+  "page.about_us.top_rated.title": "Somos un servicio de pintura con mejor puntuación en el área de San José.",
+  "page.about_us.top_rated.p": "Con más de 10 años de experiencia, SanJosePintor S.A. puede ofrecerle un servicio de pintura de calidad con resultados duraderos. Si usted está buscando una capa fresca de la pintura, una cierta carpintería y un trabajo finos del ajuste, o un makeover completo con la reparación de la pared y resurfacing, SanJosePintor puede asumir a que todas sus necesidades sean atendidas.",
+  "page.about_us.guarantee.title": "Calidad de garantía estándar",
+  "page.about_us.guarantee.p_1": "La preparación, la experiencia y la ejecución son las claves de un trabajo de pintura exitoso. Utilizamos productos de alta calidad como Sherwin Williams, Kelly Moore y Benjamin Moore para que nuestro trabajo pueda resistir la prueba del tiempo.",
+  "page.about_us.guarantee.p_2": "Nuestras propuestas personalizadas y detalladas describen claramente nuestros servicios de pintura y el costo total de cada trabajo de pintura. Nuestros pintores trabajan a partir de las propuestas, asegurando que cada proyecto de pintura se complete a tiempo y en presupuesto.",
+
+  "component.contact_us.title": "Contáctenos",
+  "component.contact_us.sub_title": "Nos pondremos en contacto con usted tan pronto como podamos.",
+  "component.contact_us.p": "Si llama durante nuestro horario de oficina, nos contactará instantáneamente. Si envía un correo electrónico, normalmente le responderemos en el mismo día hábil.",
+
+
+  "page.faq.title": "¿Preguntas? Mira aquí.",
+  "page.faq.p": "¿No puede encontrar una respuesta? Contactos",
+  "page.faq.nav.title": "Tabla de contenido",
+  "page.faq.nav.general": "General",
+  "page.faq.nav.residential_painting": "Pintura Residencial",
+  "page.faq.nav.commercial_painting": "Pintura Comercial",
+  "page.faq.nav.guarantee": "Garantía",
+  "page.faq.nav.billing": "Facturación",
+
+  "page.faq.general.": "",
+
+
+
+
+
+  "page.booking.hero.title": "Solicitar presupuesto",
+  "page.booking.hero.p_1": "Para simplificar el proceso, hemos preparado algunas preguntas para responder. Todos los campos son opcionales y puedes elegir completar tanto como quieras.",
+  "page.booking.hero.p_2": "Si esto parece confuso, no dude en contactar con nosotros",
+  "page.booking.hero.success.title": "Formulario enviado con éxito!",
+  "page.booking.hero.success.p": "Gracias por contactarnos. Nuestro objetivo es responder a todas las preguntas dentro de 24 horas. Si tiene alguna pregunta no dude en contactar con nosotros",
+
+  "page.booking.form.common.tell_more": "Cuentanos más.",
+
+  "page.booking.form.what.title": "¿Qué te gustaría pintar?",
+  "Interior wall(s)": "Pared interior",
+  "Trim": "Recortar",
+  "Ceiling(s)": "Techo",
+  "Door(s)": "Puerta",
+  "Fence": "Cerca",
+  "Cabinetry / woodwork": "Gabinetes / Carpintería",
+  "Furniture": "Mueble",
+  "Exterior": "Exterior",
+  "other": "otro",
+
+  "page.booking.form.where.title": "¿Dónde te gustaría pintar?",
+  "page.booking.form.where.point_1": "Casa",
+  "page.booking.form.where.point_2": "Oficina / comercial",
+  "page.booking.form.where.point_3": "Unidad de alquiler",
+  "page.booking.form.where.point_4": "Otro",
+
+  "page.booking.form.how_much.title": "¿Cuánta pintura está involucrada?",
+  "page.booking.form.how_much.point_1": "Una habitación o proyecto individual",
+  "page.booking.form.how_much.point_2": "Múltiples salas o proyectos",
+  "page.booking.form.how_much.point_3": "no estoy seguro",
+
+  "page.booking.form.how_big.title": "¿Cuál es la cantidad aproximada de pies cuadrados de la (s) área (s) a pintar?",
+  "page.booking.form.how_big.point_1": "Menos de 500 pies cuadrados",
+  "page.booking.form.how_big.point_2": "500 - 1.000 pies cuadrados",
+  "page.booking.form.how_big.point_3": "1.000 - 1.500 pies cuadrados",
+  "page.booking.form.how_big.point_4": "1.500 - 2.000 pies cuadrados",
+  "page.booking.form.how_big.point_5": "2.000 - 2.500 pies cuadrados",
+  "page.booking.form.how_big.point_6": "2.500 - 3.000 pies cuadrados",
+  "page.booking.form.how_big.point_7": "Más de 3.000 pies cuadrados",
+
+  "page.booking.form.when.title": "¿Cuándo necesita pintura?",
+  "page.booking.form.when.point_1": "Soy flexible",
+  "page.booking.form.when.point_2": "En los proximos pocos días",
+  "page.booking.form.when.point_3": "Tan pronto como sea posible",
+  "page.booking.form.when.point_4": "En una fecha determinada",
+  "page.booking.form.when.point_5": "Otro",
+  "page.booking.form.when.day": "Seleccione un día",
+
+  "page.booking.form.anything_else.title": "¿Algo más que el pintor debería saber?",
+  "page.booking.form.anything_else.point_1": "No",
+  "page.booking.form.anything_else.point_2": "Sí",
+
+  "page.booking.form.map.title": "Por favor, confirme dónde necesita el pintor.",
+  "page.booking.form.map.small": "(Arrastre / suelte el indicador a la ubicación del trabajo.)",
+
+  "page.booking.form.how_contact.title": "¿Cómo le gustaría recibir una cotización?",
+  "page.booking.form.how_contact.point_1": "Deseo cotizar por correo electrónico solamente",
+  "page.booking.form.how_contact.point_2": "Quiero cotizar por correo electrónico y mensaje de texto",
+  "page.booking.form.how_contact.name": "Tu nombre",
+  "page.booking.form.how_contact.email": "Correo electrónico",
+  "page.booking.form.how_contact.phone": "Número de teléfono",
+
+  "page.booking.form.button.reset": "Reiniciar",
+  "page.booking.form.button.submit": "Enviar",
+
+
+
+  "component.footer.moto": "Nosotros pintamos, te relajas. Es así de simple.",
+  "component.footer.company": "Empresa",
+  "component.footer.company.about": "Sobre Nosotros",
+  "component.footer.company.contact": "Contáctenos",
+  "component.footer.company.faq": "Preguntas",
+
+  "component.footer.services": "Nuestros servicios",
+  "component.footer.services.residential": "Residencial",
+  "component.footer.services.commercial": "Comercial",
+  "component.footer.services.powerwash": "Lavado a Presión",
+
+  "component.footer.connect": "Conectar",
+  "component.footer.connect.google": "Google+",
+  "component.footer.connect.instagram": "Instagram",
+  
+  "component.footer.copyleft": "©",
+  "component.footer.copyleft.rights": "Todos los derechos reservados"
+}

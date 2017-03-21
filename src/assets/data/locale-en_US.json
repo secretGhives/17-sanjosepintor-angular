@@ -1,0 +1,263 @@
+{
+  "component.header.link.residential": "Residential Painting",
+  "component.header.link.commercial": "Commercial Painting",
+  "component.header.link.faq": "FAQ",
+
+
+  "page.home.hero.title_1": "We paint.",
+  "page.home.hero.title_2": "You relax.",
+  "page.home.hero.button": "Starting from",
+  "page.home.hero.bonded": "All Painters are Bonded & Insured",
+  "page.home.hero.trained": "Trained to the highest standards",
+  "page.home.hero.eco": "Use Safe &amp; VOC free products",
+
+  "component.about_intro.your_city": "Your City?",
+  "component.about_intro.why": "Why Choose",
+  "component.about_intro.p_1": "Painting is no fun, at least for the most. In fact, it’s time-consuming, messy, and can involve a bruised knee or two. In our case we love to paint. It’s pretty much all we do. Get your time back — book on-line or call us to make your investment like new again.",
+  "component.about_intro.p_2": "In the rare event, you're not satisfied with the quality of the service, we will make it right with our Quality of Standard Guarantee.",
+  "component.about_intro.button": "Learn more",
+
+  "component.steps.title": "Our simple process guarantees quality each and every time",
+  "component.steps.estimate.title": "Free estimate",
+  "component.steps.estimate.p": "We come to your location to provide on-site estimate for the job.",
+  "component.steps.preparation.title": "Preparation",
+  "component.steps.preparation.p": "We prepare and mask-out all of the areas to eliminate damage to the property by using industry top techniques.",
+  "component.steps.job.title": "Do the job",
+  "component.steps.job.p": "After everything is prepared we cover surfaces with industry leading products to save time and offer high quality consistency.",
+  "component.steps.cleanup.title": "Cleanup & sign-off",
+  "component.steps.cleanup.p": "Job is done, clean all of the stuff from step one and present completed results to the client for approval and a sign-off.",
+
+  "The best company ever, super fast, super cheap and super reliable!!!": "The best company ever, super fast, super cheap and super reliable!!!",
+  "This company has prepared the unit to rent in less time than indicated. Will be used again.": "This company has prepared the unit to rent in less time than indicated. Will be used again.",
+
+  "component.featured_in.title": "Featured In",
+
+  "component.commercial.title": "Are you a commercial space?",
+  "component.commercial.link": "Learn more about our offerings",
+
+  "component.gallery.rating.value": "4.5 stars on Google!",
+  "component.gallery.rating.button": "Write a review",
+  "component.gallery.hiring.title": "We're Hiring!",
+  "component.gallery.hiring.p": "Interested in working with us? Learn more about our process, benefits, and flexible scheduling",
+  "component.gallery.hiring.button": "Apply Now",
+
+  "component.book_now.title": "Ready for more 'you' time?",
+  "component.book_now.button": "Book us today.",
+
+
+  "page.residential.hero.title": "Let your home shine.",
+  "page.residential.hero.p": "We understand your home is important to you. That’s why we focus on the quality of the job. Our painter aren’t contract workers - they are full-time employees. They care as much as we do.",
+  "page.residential.hero.button": "Book Now",
+
+  "component.interior_steps.title": "Interior finishing",
+  "component.interior_steps.p_1": "We specialize in a wide range of interior painting services for both large and small jobs, commercial and residential. We are able to provide satisfaction and delight to all of our customers with quality workmanship, superior products and highest-quality service.",
+  "component.interior_steps.p_2": "We pride ourselves on our high-level professionalism, with attention to details and clean work areas. Our painters are experienced and friendly. We work hard to give you not only the best results, but also the best personal experience. We guarantee your utmost satisfaction with our interior painting.",
+  "component.interior_steps.p_3": "Interior painting is about a lot more than just brushing on color. We provide a complete set up, prep, application, and clean up service.",
+  "component.interior_steps.setup.title": "Set Up",
+  "component.interior_steps.setup.p": "Move furniture and cover with plastic sheeting. Protect all flooring with drop cloths. Protect counter-tops, cabinets, railings, etc with drop cloth and plastic sheeting.",
+  "component.interior_steps.preparation.title": "Preparation",
+  "component.interior_steps.preparation.p": "Voids, holes, cracks, and imperfections filled and repaired. Other prep work specific to the customer’s outlined project scope.",
+  "component.interior_steps.paint.title": "Paint Application",
+  "component.interior_steps.paint.p": "Prime any imperfections and new construction surfaces for best paint adhesion. Apply quality products for a consistent professional finish.",
+  "component.interior_steps.cleanup.title": "Clean Up",
+  "component.interior_steps.cleanup.p": "Furniture and accessories are placed to original positions. Floors are cleaned. All project tools, equipment, and trash is removed from the site. Final inspection walk through.",
+  "component.interior_steps.wallpaper.title": "Wallpaper removal and installations",
+  "component.interior_steps.wallpaper.p_1": "One of the best ways to give life to your walls of your home or office is to cover them with beautiful wall coverings. This is the 21st century, so your expectations about “wallpaper” may be quite different from the range of products and applications now available.",
+  "component.interior_steps.wallpaper.p_2": "There are many different patterns and colors to choose from. We offer our customers a full spectrum of wall coving services that include wallpaper removal, wall prep, sealing and installation.",
+
+  "component.moving.title": "Moving?",
+  "component.moving.p": "We cover that, too. We’re happy to answer any questions you have to make it the easiest move of your life.",
+
+  "component.exterior_steps.title": "Exterior finishing",
+  "component.exterior_steps.p_1": "A well-painted exterior is your family’s greeting to the community. It is a reflection of your style and your interests. A newly-painted house is a beautiful thing which can instill a sense of ownership and pride. But it’s not just a psychological effect, it is a crucial layer of environmental protection for your valuable housing investment.",
+  "component.exterior_steps.p_2": "We provides many types of exterior painting services. We take into consideration the longevity you desire, the protection needed, and aesthetic values.",
+  "component.exterior_steps.p_3": "Since exterior walls and surfaces are exposed to the elements, we choose a primer that services as a binding layer and we closely match it to the finishing paint. Porous exposed surfaces like concrete or wood are better prepared, allowing the paint to more firmly adhere to them.",
+  "component.exterior_steps.p_4": "For wood surfaces prone to mold and mildew, we thoroughly prepare the area and use mildew resistant paints so the walls stay clean-looking and protected for many years.",
+  "component.exterior_steps.p_5": "Whatever your exterior home painting needs may be, we’re ready to help you. A great exterior paint job creates a beautiful, long-lasting impression of your home.",
+  "component.exterior_steps.p_6": "Just like our attention to detail with interior applications, we provide you with complete set up, prep, application, and cleanup service.",
+  "component.exterior_steps.wash.title": "Surface Wash",
+  "component.exterior_steps.wash.p": "As per your proposal, areas are hot water power washed to remove dirt, mildew, algae and grime. More pressure is applied to large hard-to-reach areas.",
+  "component.exterior_steps.preparation.title": "Surface Preparation",
+  "component.exterior_steps.preparation.p": "Based on your proposal, all loose paint is scraped and all glossy areas are scuff sanded. All gaps are caulked to prevent water intrusions.",
+  "component.exterior_steps.paint.title": "Paint Application",
+  "component.exterior_steps.paint.p": "Repaired areas are primed and premium quality paint is applied to an uniform professional finish.",
+  "component.exterior_steps.cleanup.title": "Clean Up",
+  "component.exterior_steps.cleanup.p": "Complete clean up is performed, including trash removal and sweeping of paint chips.",
+  "component.exterior_steps.inspection.title": "Inspection",
+  "component.exterior_steps.inspection.p": "After our own inspection, you are invited to inspect our work, ask questions, and get care advice.",
+
+  "component.residential_details.title": "We sweat the details",
+  "component.residential_details.p": "On top of the standard features, we will go the extra mile to get your place looking fantastic. Just ask for a deep clean, or mark your individual needs in the booking process.",
+  "component.residential_details.detail.windows": "Windows",
+  "component.residential_details.detail.trims": "Trims",
+  "component.residential_details.detail.doors": "Doors",
+  "component.residential_details.detail.extra": "Extra",
+
+  "component.instagram_feed.title": "Instagram portfolio",
+  "component.instagram_feed.p": "To view the rest of our portfolio please visit our",
+
+
+  "page.commercial.hero.title": "A good looking business is a productive one.",
+  "page.commercial.hero.p": "We specialize in exterior and interior commercial painting of buildings and other commercial structures. We provide services to the public and private sector, specializing in commercial painting. We take pride in excellent service and exceptional results.",
+  "page.commercial.hero.button": "Get A Quote",
+
+  "component.our_offer.title": "What we offer",
+  "component.our_offer.offer_1": "Insured and bonded",
+  "component.our_offer.offer_2": "No annual contract",
+  "component.our_offer.offer_3": "Transparent pricing",
+  "component.our_offer.offer_4": "Easy, convenient payment methods",
+  "component.our_offer.offer_5": "Consistent, high quality service (employees, no contractors)",
+  "component.our_offer.offer_6": "Painting supplies and equipment provided",
+  "component.our_offer.offer_7": "Flexible scheduling (business hours or after hours)",
+  "component.our_offer.offer_8": "Secure key drop-off available",
+  "component.our_offer.offer_9": "Custom walk-through",
+  "component.our_offer.offer_10": "Special attention to client-facing areas (lobby, glass doors, etc.)",
+  "component.our_offer.offer_11": "Responsive and prompt customer service",
+  "component.our_offer.offer_12": "Timely and professional issue resolution",
+
+  "component.commercial_details.interior.title": "For interior applications we will",
+  "component.commercial_details.interior.point_1": "Protect all furniture/appliances with clear plastic covers and clean drop cloths;",
+  "component.commercial_details.interior.point_2": "Roll up any area rugs;",
+  "component.commercial_details.interior.point_3": "Position furniture to center of the area;",
+  "component.commercial_details.interior.point_4": "Protect floors with construction paper and drop cloths;",
+  "component.commercial_details.interior.point_5": "Detach all outlets, switch plates, ceiling fans, thermostats and other devices from walls and ceiling (Will replace when painting is complete.);",
+  "component.commercial_details.interior.point_6": "Remove any traces of wallpaper, borders, and adhesives;",
+  "component.commercial_details.interior.point_7": "Prepare walls and ceilings: fill holes with putty, lightly sand to smooth, and wash to remove dust;",
+  "component.commercial_details.interior.point_8": "Replace defective sheet-rock on walls or ceilings;",
+  "component.commercial_details.interior.point_9": "Prime all surfaces with appropriate materials;",
+  "component.commercial_details.interior.point_10": "Paint with only the highest quality paints;",
+  "component.commercial_details.interior.point_11": "Inspect and clean the work area every day with an AHEPA vacuum for thorough dust removal.",
+
+  "component.commercial_details.exterior.title": "For exterior applications we will",
+  "component.commercial_details.exterior.point_1": "Scrape and sand using Orbital sanders.",
+  "component.commercial_details.exterior.point_2": "Spackle any loose and chipping paint.",
+  "component.commercial_details.exterior.point_3": "Power-wash all surfaces with bleach to remove mildew and dirt.",
+  "component.commercial_details.exterior.point_4": "Hand-clean and scrape stubborn areas with brushes.",
+  "component.commercial_details.exterior.point_5": "Prime all surfaces with oil based or latex primers.",
+  "component.commercial_details.exterior.point_6": "Re-nail all loose wood, clapboards and shingles.",
+  "component.commercial_details.exterior.point_7": "Replace any rotted or defective materials such as siding, fascia boards, etc.",
+  "component.commercial_details.exterior.point_8": "Apply finish paint or stain by brush; roller or spray may be used at customers request.",
+  "component.commercial_details.exterior.point_9": "Use only the highest quality paints, such as Benjamin Moore, California or Sherwin Williams.",
+  "component.commercial_details.exterior.point_10": "Remove exterior attachments such as lights, shutters, canopies etc. prior to work and replace them when painting is complete.",
+  "component.commercial_details.exterior.point_11": "Cover exterior surfaces and nearby foliage with drop cloths to prevent damage.",
+  "component.commercial_details.exterior.point_12": "Securely store all paint materials, ladders, drop cloths and equipment at the end of each work day.",
+  "component.commercial_details.exterior.point_13": "Inspect and sweep clean the work area every day.",
+
+  "component.powerwash.title": "Pressure cleaning",
+  "component.powerwash.p": "On top of the standard features, we will go the extra mile to get your place looking fantastic. Just ask for a deep clean.",
+
+
+  "page.about_us.title": "About Us",
+  "page.about_us.mission.title": "Our Mission: Provide a high-quality painting service.",
+  "page.about_us.mission.p_1": "We take the hassle out of home and office painting in Costa Rica.  We have made the process of getting your house painted a whole lot less annoying. We deliver both speed and quality, so you don’t have to shift your whole life around just to get your house painted.",
+  "page.about_us.mission.p_2": "You won’t even smell paint fumes after we’re gone—we also use zero VOC paint, which is better for you and the environment.",
+  "page.about_us.top_rated.title": "We’re a top rated painting service in San Jose area.",
+  "page.about_us.top_rated.p": "With over 10+ years of experience, SanJosePintor S.A. can offer you a quality painting service with lasting results. Whether you’re looking for a fresh coat of paint, some fine carpentry and trim work, or a complete makeover with wall repair and resurfacing, SanJosePintor can see to it that all your needs are taken care of.",
+  "page.about_us.guarantee.title": "Quality of Standard guarantee",
+  "page.about_us.guarantee.p_1": "Preparation, experience, and execution are the keys to a successful paint job. We use top quality products like Sherwin Williams, Kelly-Moore, Benjamin Moore so that our work can stand the test of time.",
+  "page.about_us.guarantee.p_2": "Our personalized, detailed proposals clearly outline our painting services and the total cost of each paint job. Our painters work from the proposals, ensuring every painting project is completed on time and on budget.",
+
+  "component.contact_us.title": "Contact Us",
+  "component.contact_us.sub_title": "We’ll get back to you as soon as we can.",
+  "component.contact_us.p": "If you call during our business hours you'll get through to us instantly. If you email, we'll usually get back to you within the same business day.",
+
+
+  "page.faq.title": "Questions? Look here.",
+  "page.faq.p": "Can't find an answer? Contacts us",
+  "page.faq.nav.title": "Table of Contents",
+  "page.faq.nav.general": "General",
+  "page.faq.nav.residential_painting": "Residential Painting",
+  "page.faq.nav.commercial_painting": "Commercial Painting",
+  "page.faq.nav.guarantee": "Guarantee",
+  "page.faq.nav.billing": "Billing",
+
+  "page.faq.general.": "",
+
+
+
+
+
+  "page.booking.hero.title": "Request a quote",
+  "page.booking.hero.p_1": "To make the process simpler, we've prepared a few questions to answer. All fields are optional and you can choose to fill out as much you like.",
+  "page.booking.hero.p_2": "If this seems confusing, feel free to contact us",
+  "page.booking.hero.success.title": "Form submitted successfully!",
+  "page.booking.hero.success.p": "Thank you for contacting us. We aim to respond to all inquiries within 24 hrs.  If you have any questions feel free to contact us",
+
+  "page.booking.form.common.tell_more": "Tell us more.",
+
+  "page.booking.form.what.title": "What would you like painted?",
+  "Interior wall(s)": "Interior wall(s)",
+  "Trim": "Trim",
+  "Ceiling(s)": "Ceiling(s)",
+  "Door(s)": "Door(s)",
+  "Fence": "Fence",
+  "Cabinetry / woodwork": "Cabinetry / woodwork",
+  "Furniture": "Furniture",
+  "Exterior": "Exterior",
+  "other": "other",
+
+  "page.booking.form.where.title": "Where would you like painting?",
+  "page.booking.form.where.point_1": "Home",
+  "page.booking.form.where.point_2": "Office / commercial",
+  "page.booking.form.where.point_3": "Rental unit(s)",
+  "page.booking.form.where.point_4": "Other",
+
+  "page.booking.form.how_much.title": "How much painting is involved?",
+  "page.booking.form.how_much.point_1": "A single room or project",
+  "page.booking.form.how_much.point_2": "Multiple rooms or projects",
+  "page.booking.form.how_much.point_3": "I'm not sure",
+
+  "page.booking.form.how_big.title": "What is the approximate square footage of the area(s) to be painted?",
+  "page.booking.form.how_big.point_1": "Less than 500 sq ft",
+  "page.booking.form.how_big.point_2": "500 - 1,000 sq ft",
+  "page.booking.form.how_big.point_3": "1,000 - 1,500 sq ft",
+  "page.booking.form.how_big.point_4": "1,500 - 2,000 sq ft",
+  "page.booking.form.how_big.point_5": "2,000 - 2,500 sq ft",
+  "page.booking.form.how_big.point_6": "2,500 - 3,000 sq ft",
+  "page.booking.form.how_big.point_7": "More than 3,000 sq ft",
+
+  "page.booking.form.when.title": "When do you need painting?",
+  "page.booking.form.when.point_1": "I'm flexible",
+  "page.booking.form.when.point_2": "In the next few days",
+  "page.booking.form.when.point_3": "As soon as possible",
+  "page.booking.form.when.point_4": "On one particular date",
+  "page.booking.form.when.point_5": "Other",
+  "page.booking.form.when.day": "Select a day",
+
+  "page.booking.form.anything_else.title": "Anything else the painter should know?",
+  "page.booking.form.anything_else.point_1": "No",
+  "page.booking.form.anything_else.point_2": "Yes",
+
+  "page.booking.form.map.title": "Please confirm where you need the painter.",
+  "page.booking.form.map.small": "(Drag/drop Indicator to location of the job.)",
+
+  "page.booking.form.how_contact.title": "How would you like to receive quote?",
+  "page.booking.form.how_contact.point_1": "I want quote by email only",
+  "page.booking.form.how_contact.point_2": "I want quote by email and text message",
+  "page.booking.form.how_contact.name": "Your name",
+  "page.booking.form.how_contact.email": "Email address",
+  "page.booking.form.how_contact.phone": "Phone number",
+
+  "page.booking.form.button.reset": "Reset",
+  "page.booking.form.button.submit": "Submit",
+
+
+
+  "component.footer.moto": "We paint, you relax. It’s that simple.",
+  "component.footer.company": "Company",
+  "component.footer.company.about": "About Us",
+  "component.footer.company.contact": "Contact Us",
+  "component.footer.company.faq": "FAQ",
+
+  "component.footer.services": "Our Services",
+  "component.footer.services.residential": "Residential",
+  "component.footer.services.commercial": "Commercial",
+  "component.footer.services.powerwash": "Power wash",
+
+  "component.footer.connect": "Connect",
+  "component.footer.connect.google": "Google+",
+  "component.footer.connect.instagram": "Instagram",
+  
+  "component.footer.copyleft": "©",
+  "component.footer.copyleft.rights": "All rights preserved"
+}
