@@ -1,0 +1,68 @@
+@import '../../../assets/styles/sass/variables.scss';
+
+body {
+  font-family: BrownStd, Helvetica, sans-serif;
+  font-weight: 400;
+  text-rendering: geometricPrecision;
+  position: relative
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+  li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.65;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+}
+
+h1  { 
+  font-size: 32px; 
+  @media screen and (min-width: 940px) { font-size: 45px; margin-bottom: 0; }
+  @media screen and (max-width: 939px) and (min-width: 640px) { font-size: 42px; }
+  line-height: 1.2;
+  color: $navy_hue;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+p { 
+  font-size: 15px;
+  @media screen and (min-width: 940px) { font-size: 21px; }
+  @media screen and (max-width: 939px) and (min-width: 640px) { font-size: 18px; }
+  line-height: 1.65;
+  color: $navy_hue;
+}
+
+.input-submit { 
+  padding: 1em 3em; 
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1100px) {
+  .content-wrapper {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+
+
+
+
+
+// @media screen and (min-width: 640px) {}
+// @media screen and (max-width: 740px) and (orientation: landscape) {}
+// @media screen and (max-width: 639px) {}
+
+// Add Main SCSS Above
