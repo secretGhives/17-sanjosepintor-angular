@@ -3,7 +3,6 @@ const shared = angular.module('core.shared', []);
 
 import * as beforeAfterDirective from './directives/before-after/before-after.directive';
 import * as affixTopDirective from './directives/affix-top/affix-top.directive';
-import * as simpleAccordionDirective from './directives/simple-accordion/simple-accordion.directive';
 import * as zoomDirective from './directives/zoom/zoom.directive';
 import * as scrollOnClickDirective from './directives/scroll-on-click/scroll-on-click.directive';
 import * as translateLanguageSelectDirective from './directives/translate-language-select/translate-language-select.directive';
@@ -15,7 +14,6 @@ import * as localeFactory from './services/locale/locale.factory';
 
 shared.directive('beforeAfter', beforeAfterDirective);
 shared.directive('affixTop', affixTopDirective);
-shared.directive('simpleAccordion', simpleAccordionDirective);
 shared.directive('zoom', zoomDirective);
 shared.directive('scrollOnClick', scrollOnClickDirective);
 shared.directive('translateLanguageSelect', translateLanguageSelectDirective);

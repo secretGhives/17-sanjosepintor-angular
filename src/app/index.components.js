@@ -17,5 +17,6 @@ export default angular.module('index.components', [
   require('./components/instagram-feed/instagram-feed.module').name,
   require('./components/interior-steps/interior-steps.module').name,
   require('./components/exterior-steps/exterior-steps.module').name,
+  require('./components/calculator/calculator.module').name,
   // Add new components above
 ]);

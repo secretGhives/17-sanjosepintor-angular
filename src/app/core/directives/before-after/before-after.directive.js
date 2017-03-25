@@ -5,7 +5,7 @@ function beforeAfterDirective($window) {
 
   	var move = {};
   	var containerWidth = container.prop('clientWidth');
-
+  	
 		var moveSlide = function(e) {
 
 			var pageX = e.pageX || e.targetTouches[0].pageX;
@@ -18,14 +18,13 @@ function beforeAfterDirective($window) {
 				top: pageY
 			};
 
-			var moveWidth = (move.left + 6)*100/containerWidth+'%';
+			var moveWidth = move.left*100/containerWidth+'%';
 
 			handle.css({
 				width: moveWidth
 			});
-
+			//console.log(move.left);
 			//console.log(container.prop('clientWidth') + ' --- ' + moveWidth);
-
 		}
 
 		// Support desktop + touch
@@ -97,16 +96,16 @@ function beforeAfterDirective($window) {
 
   function linkFn(scope, elem, attrs, fn, $window) {
 
-  	var container = angular.element(elem[0].querySelector('.slide-comb'));
+  	var containe = angular.element(elem[0].querySelector('.slide-comb'));
 		var divider = angular.element(elem[0].querySelector('.separador'));
 
 		// Bind move event
-		moveOver(divider, container);
+		moveOver(divider, containe);
 
     //** On resize
     window.onresize = function () {
-			moveOver(divider, container);
-			console.log('event fired');
+			moveOver(divider, containe);
+			//console.log('event fired');
       scope.$apply();
     }
 

@@ -1,0 +1,224 @@
+<h1>BASIC ESTIMATOR</h1>
+
+<div class="text pcalc-intro">
+	Before you or your contractor buy paint, find out exactly how much you&#39;ll need. If more than one room is being painted with the same color, add up the total square footage. 
+	<br /><br />
+	<i>PLEASE NOTE: These calculations are not intended to give more than a rough estimate. Precise paint needs will vary according to many factors, including application method. These calculations assume 2 coats of paint and do not include the ceiling.</i>
+	<hr>
+</div>
+
+<main id="calculator" layout-xs="column" layout="row">
+
+	<section class="inputs" flex="60">
+		<md-radio-group ng-model="calc.unit_type" layout layout-align="start center">
+      <md-radio-button value="feet">IMPERIAL-US</md-radio-button>
+      <md-radio-button value="meters"> METRIC </md-radio-button>
+    </md-radio-group>
+
+    <md-input-container>
+      <label>LENGTH <small class="unit" ng-bind="calc.unit_type"/></small></label>
+      <input ng-model="calc.length" maxlength="5" type="number">
+    </md-input-container>
+
+    <md-input-container>
+      <label>WIDTH <small class="unit" ng-bind="calc.unit_type"/></small></label>
+      <input ng-model="calc.width" maxlength="5" type="number">
+    </md-input-container>
+
+    <md-input-container>
+      <label>HEIGHT <small class="unit" ng-bind="calc.unit_type"/></small></label>
+      <input ng-model="calc.height" maxlength="5" type="number">
+    </md-input-container>
+
+    <md-input-container>
+      <label>DOORS</label>
+      <input ng-model="calc.doors" maxlength="5" type="number">
+    </md-input-container>
+
+    <md-input-container>
+      <label>WINDOWS</label>
+      <input ng-model="calc.windows" maxlength="5" type="number">
+    </md-input-container>
+	</section>
+
+	<section class="results" flex="40">
+		<!-- <div class="paint-calc-default">
+			<img src="/Assets/benjaminmoore/dist/img/paint-calculator/paint-calculator.png" alt="Paint Calculator" />
+			<h2>Estimate your paint needs by entering data at left.</h2>
+		</div> -->
+
+		<!-- <div class="results-error">
+			<img src="/Assets/benjaminmoore/dist/img/paint-calculator/paint-calculator-alert.png" alt="Paint Calculator Error" />
+			<h2>We need a little more information to calculate how much paint you’ll need.</h2>
+		</div> -->
+
+		<div class="paint-results">
+			<div class="paint-results-content">Approximate surface area of this room:</div>
+			<div>
+				<div id="area" class="h2" data-noarea="No Results." data-areaunit="square meters" data-volumeunit="liter(s)" data-squarefeet="square feet" data-quarts="quart(s)"></div>
+			</div>
+			<hr class="resultsHR">
+			<div class="paint-results-content">Recommended amount of paint for this room:</div>
+			<div>
+				<div id="volume" class="h2" data-noarea2="Estimate your paint needs by entering data at left." data-gallons="gallon(s)" data-quarts="quart(s)"></div>
+			</div>
+		</div>
+	</section>
+</main>
+
+
+<div class="container-fluid">
+  <div class="row" id="header">
+  <p class="col-md-12">Just something that I've found useful when training and the sites I've seen just don't quite hit the mark for me.</p>
+  <div class="col-md-12">
+    <h3>Angular Calorie Calculator</h3>
+    <p>Using the <a href="https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation" target="_blank">Harris–Benedict equation</a> as revised by Mifflin and St Jeor in 1990</p>
+  </div>
+</div>
+  <hr>
+  <div id="mainContainer" >
+    <div class="row" id="convertWeight">
+      <p>Convert stone (st) and pounds (lbs) to kilograms (Kgs)</p>
+      <div class="form-group col-md-1 col-md-offset-4">
+        <input type="number" class="form-control" placeholder="stone" ng-model="stone"/>
+      </div>
+      <div class="form-group col-md-1">
+        <input type="number" class="form-control" placeholder="lbs" ng-model="pounds"/>
+      </div>
+      <div class="form-group col-md-1">
+        <input type="number" class="form-control" placeholder="Kgs" ng-model="kilograms()" disabled/>
+      </div>
+    </div>
+    <div class="row" id="convertHeight">
+      <p>Convert feet and inches to centimeters (cm)</p>
+      <div class="form-group col-md-1 col-md-offset-4">
+        <input type="number" class="form-control" placeholder="feet" ng-model="feet"/>
+      </div>
+          <div class="form-group col-md-1">
+            <input type="number" class="form-control" placeholder="inches" ng-model="inches"/>
+          </div>
+      <div class="form-group col-md-1">
+        <input type="number" class="form-control" placeholder="cm" ng-model="cm()" disabled/>
+      </div>
+    </div>
+    <hr>
+    <!--end of converters-->
+    
+    <div class="row" id="calulatorContainer">
+      <div class="form-group col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3">
+        <div class="form">
+          <input type="number" class="form-control" placeholder="Weight in Kgs" ng-model="weight">
+        </div>
+        <div class="form">
+          <input type="number" class="form-control" placeholder="Age" ng-model="age">
+        </div>
+        <div class="form">
+          <input type="number" class="form-control" placeholder="Height in cm" ng-model="height">
+        </div>
+        <div class="form" id="activity">
+          <!--the as in ng-options selects the current value in the dropdown and allows it to be stored in ng-model-->
+          <select class="form-control" ng-options="x as x.name for x in activities" ng-model="selectedActivity">
+            <option value="">Select activity level...</option>
+          </select>
+        </div>
+        <!--closing div for activity dropdown-->
+        <div class="form" id="goal">
+          <select class="form-control" ng-options="x as x.name for x in goals" ng-model="selectedGoal">
+            <option value="">Select your goal...</option>
+          </select>
+        </div>
+        <!--closing div for goal-->
+        <div id="gender">
+          <label class="radio-inline"><input type="radio" name="optradio" ng-model="gender" value="male">Male</label>
+          <label class="radio-inline"><input type="radio" name="optradio" ng-model="gender" value="female">Female</label>
+        </div>
+        <!--closing div for radio gender-->
+      </div>
+
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1" id="resultsSection">
+        <h3>Results (in kJ)</h3>
+        <div id="results">
+          <p>Your <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate" target="_blank">BMR</a> = {{bmr () | number:0}}</p>
+          <p>Required daily cals = {{cals () | number:0 }} </p>
+          <p>Daily Protein cals = {{proteinCals () | number:0}} </p>
+          <p>Daily Carbs cals = {{carbsCals ()| number:0}}</p>
+          <p>Daily Fat cals = {{fatCals ()| number:0}}</p>
+        </div>
+        <!--closing div for results-->
+      </div>
+    </div>
+    <!--closing div calculator container-->
+
+    <div class="row" id="mealContainer">
+      <div class="col-md-12" id="mealHeader">
+      <h3>Meal Plan (in grams)</h3>
+      <p id="explainMeals">Follow Monday to Friday, just don't take the mick at the weekends and gorge on chocolate etc <i class="fa fa-smile-o" aria-hidden="true"></i> unless you want to lose weight, then follow religiously!</p>
+        </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Breakfast</h5>
+        <p>Protein: {{breakfast[0].value() |number:0}}</p>
+        <p>Carbs: {{breakfast[1].value()|number:0}}</p>
+        <p>Fat: {{breakfast[2].value()|number:0}}</p>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+        <p>Protein: {{snack[0].value()|number:0}}</p>
+        <p>Carbs: {{snack[1].value()|number:0}}</p>
+        <p>Fat: {{snack[2].value()|number:0}}</p>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Lunch</h5>
+        <p>Protein: {{mainMeal[0].value()|number:0}}</p>
+        <p>Carbs: {{mainMeal[1].value()|number:0}}</p>
+        <p>Fat: {{mainMeal[2].value()|number:0}}</p>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+        <p>Protein: {{snack[0].value()|number:0}}</p>
+        <p>Carbs: {{snack[1].value()|number:0}}</p>
+        <p>Fat: {{snack[2].value()|number:0}}</p>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+        <p>Protein: {{snack[0].value()|number:0}}</p>
+        <p>Carbs: {{snack[1].value()|number:0}}</p>
+        <p>Fat: {{snack[2].value()|number:0}}</p>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Dinner</h5>
+        <p>Protein: {{mainMeal[0].value()|number:0}}</p>
+        <p>Carbs: {{mainMeal[1].value()|number:0}}</p>
+        <p>Fat: {{mainMeal[2].value()|number:0}}</p>
+      </div>
+      </div>
+    <!--closing div mealContainer-->
+    
+  </div>
+  <!--closing div main container-->
+  
+  <div class="row" id="suggestionsContainer">
+      <div class="col-md-12" id="mealSuggestionsHeader">
+      <h3>Meal Suggestions</h3>
+        </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Breakfast</h5>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Lunch</h5>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Snack</h5>
+      </div>
+      <div class="meal col-md-2 col-xs-5">
+        <h5>Dinner</h5>
+      </div>
+  </div>
+  <!--closing div mealSuggestions-->
+</div>
+<!--closing div container-fluid-->
