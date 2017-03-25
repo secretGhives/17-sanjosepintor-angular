@@ -1,0 +1,158 @@
+<article id="faq" layout="column" class="content-wrapper">
+	<header id="top" class="header" layout="row"></header>
+
+	<section class="faq-top-header" layout="row">
+		<div flex-gt-xs="auto"></div>
+		<div class="text" flex-gt-xs="66">
+			<br><br><br><br>
+			<h1>{{"page.faq.title" | translate}}</h1>
+			<p>{{"page.faq.p" | translate}} {{phone}}, {{email}}!</p>
+			<br><br>
+		</div>
+	</section>
+
+	<section class="content-faq"
+		layout="row" layout-xs="column"
+		layout-align-xs="start stretch"
+		layout-align="start start">
+
+		<div class="left-bar" layout="column" flex="auto">
+			<nav class="left-faq-nav" affix-top="fix-to-top">
+				<h4>{{"page.faq.nav.title" | translate}} <img src="/assets/images/line-arrow-right.svg" class="down-arrow" hide-gt-xs></h4>
+				<ul>
+					<li ui-sref="faq({ '#': 'general' })" data-scrollspy-listen='general'>{{"page.faq.nav.general" | translate}}</li>
+					<li ui-sref="faq({ '#': 'residential_painting' })" data-scrollspy-listen='residential_painting'>{{"page.faq.nav.residential_painting" | translate}}</li>
+					<li ui-sref="faq({ '#': 'commercial_painting' })" data-scrollspy-listen='commercial_painting'>{{"page.faq.nav.commercial_painting" | translate}}</li>
+					<li ui-sref="faq({ '#': 'job_guarentee' })" data-scrollspy-listen='job_guarentee'>{{"page.faq.nav.guarantee" | translate}}</li>
+					<li ui-sref="faq({ '#': 'billing' })" data-scrollspy-listen='billing'>{{"page.faq.nav.billing" | translate}}</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="main-column" layout="column" flex="grow" flex-gt-xs="66">
+
+			<div class="section-gap" data-scrollspy-broadcast id="general">
+				<h3 class="grey">{{"page.faq.nav.general" | translate}}</h3>
+
+				<question class="faq-question">
+					<h2>How does your company work?</h2>
+					<div class="answer">
+						<p>We paint. You relax.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>Does someone need to be present?</h2>
+					<div class="answer">
+						<p>Whether or not you're at the space during your painting appointment is up to you! When you make a booking, you'll be prompted to give us entry instructions. If you have a doorman or can hide a key somewhere, there's no need for you to be home. Or, feel free to stick around during the job. Whatever you're most comfortable with is fine.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>Are you insured and bonded?</h2>
+					<div class="answer">
+						<p>Yes, we are insured and bonded. We understand that it is a privilege to be in your home, and we are always careful. In the unlikely event that an object is damaged, please notify us within 48 hours of when the appointment is completed either by email (<a href="mailto:{{email}}?subject=Question">{{email}}</a>) or by phone ({{phone}}).</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>Are you pet safe?</h2>
+					<div class="answer">
+						<p>We love animals, but they don't always love us. If you think your pet may become overly anxious while we are there, please make temporary arrangements while we are in your home. You can leave detailed pet instructions during scheduling process.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+			</div><!-- END OF SECTION -->
+
+			<div class="section-gap" data-scrollspy-broadcast id="residential_painting">
+				<h3 class="grey">{{"page.faq.nav.residential_painting" | translate}}</h3>
+
+				<question class="faq-question">
+					<h2>Do I need to provide painting supplies?</h2>
+					<div class="answer">
+						<p>We use and provide environmentally friendly supplies and nearly all equipment required for painting your home.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>What if I have my own paint?</h2>
+					<div class="answer">
+						<p>In that case we can discount paint from your order.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+			</div><!-- END OF SECTION -->
+
+			<div class="section-gap" data-scrollspy-broadcast id="commercial_painting">
+				<h3 class="grey">{{"page.faq.nav.commercial_painting" | translate}}</h3>
+
+				<question class="faq-question">
+					<h2>Why get your office painted?</h2>
+					<div class="answer">
+						<p>We understand that a fresh workspace can reduce the likelihood of employees getting bored, thus allowing your business to be more productive (and more profitable).</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>How do I get an office painting quote?</h2>
+					<div class="answer">
+						<p>Contact us either by phone or email or click <a href="/booking" title="Commercial Clean">here</a> to get started with online booking form!</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+			</div><!-- END OF SECTION -->
+
+			<div class="section-gap" data-scrollspy-broadcast id="job_guarentee">
+				<h3 class="grey">{{"page.faq.nav.guarantee" | translate}}</h3>
+
+				<question class="faq-question">
+					<h2>What is the Quality of Standard Guarantee?</h2>
+					<div class="answer">
+						<p>We get it right or we make it right.</p>
+						<p>Our job isn’t finished until you’re satisfied. Whether it’s one house, an entire commercial property, or industrial complex, we guarantee to be there from set up to clean up for all our painting services.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>What is and is not eligible for a Quality of Standard Guarantee?</h2>
+					<div class="answer">
+						<p>Appointments completed within the past 48 hours are eligible.</p>
+						<ul>
+							<li> Appointments completed more than 48 hours ago</li>
+							<li> Items not included on 50 Point Checklist</li>
+							<li> Free paint</li>
+							<li> Repaints</li>
+							<li> Homes not in standard condition (e.g. biohazards, hoarding, etc.)</li>
+							<li> Extra services not booked for original appointment</li>
+							<li> Post-construction/post-renovation painting</li>
+							<li> Move-out painting</li>
+						</ul>
+					</div>
+				</question> <!-- END OF QUESTION -->
+			</div><!-- END OF SECTION -->
+
+			<div class="section-gap" data-scrollspy-broadcast id="billing">
+				<h3 class="grey">{{"page.faq.nav.billing" | translate}}</h3>
+
+				<question class="faq-question">
+					<h2>How do I pay for the job?</h2>
+					<div class="answer">
+						<p>We accept all major forms of payment.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>What is your Cancellation Policy?</h2>
+					<div class="answer">
+						<p>Call us at least a working day in advanced.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+
+				<question class="faq-question">
+					<h2>Do I leave a tip?</h2>
+					<div class="answer">
+						<p>Tips are not required but are certainly appreciated by our painters.</p>
+					</div>
+				</question> <!-- END OF QUESTION -->
+			</div><!-- END OF SECTION -->
+
+		</div>
+	</section>
+</article>

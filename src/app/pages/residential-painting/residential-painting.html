@@ -1,0 +1,47 @@
+<article id="residential-painting">
+	<section id="section--residential-painting-hero" 
+		style="background-image:url(/assets/images/residential-interior.jpg);">
+
+		<div class="content-wrapper hero"
+			layout="column"
+			layout-align-xs="center center"
+			layout-align-sm="center start"
+			layout-align-md="center start">
+
+			<header id="top" class="header" layout="row"></header>
+
+			<div class="text">
+				<h1>{{"page.residential.hero.title" | translate}}</h1>
+
+				<p>{{"page.residential.hero.p" | translate}}</p>
+
+				<md-button ui-sref="booking" class="md-raised input-submit md-primary" flex-xs="grow">{{"page.residential.hero.button" | translate}}</md-button>
+			</div>
+		</div>
+	</section>
+
+	<interior-steps id="section--interior-steps" class="content-wrapper"
+		layout="row" layout-xs="column" layout-wrap></interior-steps>
+
+	<moving id="section--moving" class="content-wrapper"
+		layout="row" layout-xs="column"></moving>
+
+	<exterior-steps id="section--exterior-steps" class="content-wrapper"
+		layout="row" layout-xs="column" layout-wrap></exterior-steps>
+
+	<residential-details id="section--residential-details" class="content-wrapper"
+		layout="column"></residential-details>
+
+	<before-after style="display: block;" class="content-wrapper"
+		before-image-url="'/assets/images/before-after/residential_before_0.jpg'" 
+		after-image-url="'/assets/images/before-after/residential_after_0.jpg'"></before-after>
+
+	<testimonials id="section--testimonials" class="content-wrapper"
+		layout="column" layout-align="center center"></testimonials>
+
+	<instagram-feed id="section--instagram-feed" class="content-wrapper"
+		layout="column" layout-padding></instagram-feed>
+
+	<book-now id="section--booking" class="content-wrapper"
+		layout="column"></book-now>
+</article>

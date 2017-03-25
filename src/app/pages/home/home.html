@@ -1,0 +1,52 @@
+<article id="home">
+	<section id="section--home-hero" 
+		style="background-image:url(/assets/images/home-hero.jpg);">
+
+		<div class="content-wrapper hero"
+			layout="column"
+			layout-align-xs="end center"
+			layout-align-sm="center center"
+			layout-align-md="center center">
+			
+
+			<header class="header" layout="row"></header>
+
+			<div class="text">
+				<h1 class="large">{{"page.home.hero.title_1" | translate}} <img src="/assets/images/paint-roller_5.svg" class="svg"></h1>
+				<h1 class="large"> <img src="/assets/images/coffee-break.svg" class="svg">{{"page.home.hero.title_2" | translate}}</h1>
+			</div>
+
+			<md-button ui-sref="booking" class="md-raised input-submit md-primary">{{"page.home.hero.button" | translate}} <span class="estimate-amount price">2</span>sq/f</md-button>
+		</div>
+
+		<!-- Meta Information in header -->
+		<div class="meta-info" hide-xs>
+			<ul>
+				<li><img src="/assets/images/star-outline.svg" class="svg">{{"page.home.hero.bonded" | translate}}</li>
+				<li><img src="/assets/images/check.svg" class="svg">{{"page.home.hero.trained" | translate}}</li>
+				<li><img src="/assets/images/leaf.svg" class="svg">{{"page.home.hero.eco" | translate}}</li>
+			</ul>
+		</div>
+	</section>
+
+	<about-intro id="section--about-intro" class="content-wrapper"
+		layout="row" layout-xs="column"></about-intro>
+
+	<steps id="section--steps"  class="content-wrapper"
+		layout="row" layout-xs="column" layout-wrap layout-align="center center"></steps>
+
+	<testimonials id="section--testimonials" class="content-wrapper"
+		layout="column" layout-align="center center"></testimonials>
+
+	<featured-in id="section--featured" class="content-wrapper"
+		layout="column"></featured-in>
+
+	<commercial id="section--commercial" class="content-wrapper"
+		layout="row" layout-xs="column"></commercial>
+
+	<gallery id="section--gallery" class="content-wrapper"
+		layout="row" layout-xs="column"></gallery>
+
+	<book-now id="section--booking" class="content-wrapper"
+		layout="column"></book-now>
+</article>
